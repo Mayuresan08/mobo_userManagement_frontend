@@ -67,7 +67,7 @@ export default function UserCard(props) {
     const handleConfirmDelete=async()=>{
 
         try{
-            await axios.delete(`http://localhost:3001/users/${user._id}`)
+            await axios.delete(`https://mobo-user.herokuapp.com/users/${user._id}`)
            props.getUser()
         }
         catch(err)
