@@ -40,7 +40,7 @@ export default function Home() {
             <Container>
               <InnerContainer>
                   <div >
-                      <h2 style={{color:"black"}}>IUsers</h2>
+                      <h2 >IUsers</h2>
                   </div>
                   <div style={{color:"black"}}>
                         <div className="d-flex -center gap-4">
@@ -50,7 +50,7 @@ export default function Home() {
                   </div>
               </InnerContainer>
                 <MainContainer>
-                    <div><h3>Manage your users by clicking below </h3></div>
+                    <div><h3 style={{color:"black"}}>Manage your users by clicking below </h3></div>
                     <div><button className="btn btn-success"><Link to="/user" style={{textDecoration:"none" ,color:"inherit"}}><h6>User Control</h6></Link></button></div>
                 </MainContainer>
               </Container>
