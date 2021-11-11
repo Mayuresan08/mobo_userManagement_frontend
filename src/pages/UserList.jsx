@@ -68,7 +68,7 @@ console.log(users)
               {  
                   users.isFetching && (
                         <div style={{height:"100vh"}}>
-                <Loader style={{display:"flex",justifyContent:"center",width:"100%" ,margin:"9rem"}}
+                <Loader style={{display:"flex",justifyContent:"center" ,margin:"9rem"}}
                   type="Puff"
                   color="#c23683"
                   height={100}
