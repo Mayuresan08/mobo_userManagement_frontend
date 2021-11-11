@@ -40,7 +40,7 @@ export default function Home() {
             <Container>
               <InnerContainer>
                   <div >
-                      <h2>IUsers</h2>
+                      <h2 style={{color:"black"}}>IUsers</h2>
                   </div>
                   <div style={{color:"black"}}>
                         <div className="d-flex -center gap-4">
